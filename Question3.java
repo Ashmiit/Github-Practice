@@ -6,8 +6,3 @@ public class Question3 {
 
     }
 }
-
-// testing comment
-// Ashmit testing comment
-// Github might work now
-// Testing Navams pull
