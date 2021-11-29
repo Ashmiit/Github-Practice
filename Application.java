@@ -6,8 +6,10 @@ public class Application {
 
     // Constructor
     Application(String name, int bal) {
+        
         this.name = name;
         this.bal = bal;
+
     }
 
     public void Withdraw(int num){
@@ -21,6 +23,7 @@ public class Application {
         
         System.out.println("You deposited $" + num + ". Your new balance is now $" + (bal + num));
         this.bal = this.bal + num;
+
     }
 
 }
