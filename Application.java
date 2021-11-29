@@ -10,4 +10,11 @@ public class Application {
         this.bal = bal;
     }
 
+    public void Withdraw(int num){
+
+        System.out.println("You withdrew $" + num + ". Your new balance is now $" + (bal - num));
+        this.bal = this.bal - num;
+
+    }
+
 }
