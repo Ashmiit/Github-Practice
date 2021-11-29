@@ -34,9 +34,6 @@ public class Question3 {
                 case 4:
                     exit = true;
                     System.out.println("Exiting application...");
-                default:
-                    System.out.println("Invalid Input, Please use only whole numbers");
-                    break;
             }
 
         }
