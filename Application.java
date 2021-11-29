@@ -17,4 +17,10 @@ public class Application {
 
     }
 
+    public void Deposit(int num){
+        
+        System.out.println("You deposited $" + num + ". Your new balance is now $" + (bal + num));
+        this.bal = this.bal + num;
+    }
+
 }
